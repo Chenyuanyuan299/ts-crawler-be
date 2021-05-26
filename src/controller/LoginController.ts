@@ -43,5 +43,4 @@ export class LoginController {
     }
     res.json(getResponseData<responseResult.logout>(true));
   };
-
 }
